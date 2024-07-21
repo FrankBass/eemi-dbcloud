@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="./styles/common.css" />
+  <link rel="stylesheet" href="./styles/login.css" />
+  <script type="module" src="./js/login.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="/" class="nav-link">Accueil</a>
+        <a href="article-like.html" class="nav-link">Mes likes</a>
+        <a href="profile.html" class="nav-link">Mon compte</a>
+      </div>
+      <div class="navbar-center">
+        <a href="/" class="brand">SUPABASE</a>
+      </div>
+      <div class="navbar-right">
+        <a id="nav-login" href="./login.html" class="nav-link">Connexion</a>
+        <a href="join.html" class="nav-link join-button">Créer un compte</a>
+        <span id="nav-userinfos"></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <form id="login-form">
+      <h1>Login</h1>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" autocomplete="email" required />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" autocomplete="current-password" required />
+      <p id="errors"></p>
+      <button type="submit">Login</button>
+    </form>
+  </main>
+</body>
+</html>

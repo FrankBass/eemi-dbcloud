@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #333;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-link img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+#nav-userinfos {
+  display: none;
+  color: #333;
+  margin-left: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.article-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.article-item {
+  /* background-color: white; */
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.article-item:hover {
+  transform: scale(1.05);
+}
+
+.article-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.article-item h2 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.article-item p {
+  margin: 5px 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.article-item .article-date {
+  color: #777;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.article-item .article-author {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.article-item .article-excerpt {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.article-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+  border-radius: 45px;
+  font-size: 14px;
+}
+
+.article-item a:hover {
+  background-color: #333;
+  color: white;
+}
+  
+
+
+
