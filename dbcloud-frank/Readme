@@ -1,0 +1,40 @@
+# Blog avec Supabase
+
+Ce projet est un blog simple développé avec Supabase, Node.js..etc Il permet aux utilisateurs de créer, lire, mettre à jour et supprimer des articles. Les utilisateurs peuvent également commenter et liker des articles.
+
+## Fonctionnalités
+
+- **Articles** :
+  - Créer un nouvel article.
+  - Modifier un article existant.
+  - Afficher les articles publiés.
+  - Filtrer les articles par statut (PUBLISHED ou DRAFT).
+- **Commentaires** :
+  - Ajouter un commentaire à un article.
+  - Supprimer un commentaire (par l'auteur de l'article ou du commentaire).
+- **Likes** :
+  - Liker ou unliker un article.
+  - Afficher le nombre de likes d'un article.
+- **Utilisateurs** :
+  - S'inscrire avec un email, un mot de passe, un pseudo et un avatar.
+  - Se connecter et se déconnecter.
+  - Afficher le profil de l'utilisateur connecté.
+  - Afficher le pseudo et l'avatar de l'auteur de l'article.
+
+
+
+
+## 1 connexion :
+
+
+user 1
+
+Mail: johndoe@example.com
+Mot de passe : password123
+
+
+user 2
+
+Mail: janesmith@example.com
+Mot de passe : password123
+
